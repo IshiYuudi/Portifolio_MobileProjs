@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="141dp"
+            android:layout_height="128dp"
+            android:layout_gravity="center"
+            android:src="@drawable/wheel" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SCORE: "
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00000"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_anterior"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/left" />
+
+        <ViewFlipper
+            android:id="@+id/vf_character"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#76C9FA"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/beetle" />
+
+                <Button
+                    android:id="@+id/btn_car1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SELECIONAR" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F776FA"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/cabriolet" />
+
+                <Button
+                    android:id="@+id/btn_car2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SELECIONAR" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FF0300"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/sportcar" />
+
+                <Button
+                    android:id="@+id/btn_car3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SELECIONAR" />
+            </LinearLayout>
+        </ViewFlipper>
+        <Button
+            android:id="@+id/btn_proximo"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/right" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
