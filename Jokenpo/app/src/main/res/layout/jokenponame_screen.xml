@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    android:padding="20dp"
+    android:background="@drawable/background_2t">
+    <TextView
+        android:text="JOKENPO!"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#ff0000"
+        android:fontFamily="sans-serif-condensed"
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:text="Welcome!"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:text="What's your name?"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"/>
+        <EditText
+            android:id="@+id/et_username"
+            android:hint="Type your name..."
+            android:textColorHint="#000000"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif-condensed"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"/>
+        <Button
+            android:id="@+id/btn_username"
+            android:text="Play!"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
