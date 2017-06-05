@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="tictactoenotification">Got a break? Lets play!</string>
+    <string name="player">Player: %s</string>
+    <string name="win">%s Win!!!</string>
+    <string name="draw">Draw!</string>
+</resources>

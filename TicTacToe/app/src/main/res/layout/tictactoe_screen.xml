@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@drawable/background_4t">
+    <TextView
+        android:layout_gravity="center"
+        android:layout_weight="0"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-condensed"
+        android:paddingBottom="15dp"
+        android:text="Tic Tac Toe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_gravity="center"
+        android:layout_weight="0"
+        android:textSize="20sp"
+        android:textColor="#ff0000"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:paddingBottom="15dp"
+        android:id="@+id/tv_played"
+        android:text="PLAYER: X"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <ImageButton
+                android:onClick="clickListener"
+                android:id="@+id/b0"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <ImageButton
+                android:onClick="clickListener"
+                android:id="@+id/b1"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <ImageButton
+                android:onClick="clickListener"
+                android:id="@+id/b2"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <ImageButton
+                android:onClick="clickListener"
+                android:id="@+id/b3"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <ImageButton
+                android:onClick="clickListener"
+                android:id="@+id/b4"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <ImageButton
+                android:onClick="clickListener"
+                android:id="@+id/b5"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <ImageButton
+                android:onClick="clickListener"
+                android:id="@+id/b6"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <ImageButton
+                android:onClick="clickListener"
+                android:id="@+id/b7"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <ImageButton
+                android:onClick="clickListener"
+                android:id="@+id/b8"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:onClick="restart"
+        android:background="@drawable/restart"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+</LinearLayout>
