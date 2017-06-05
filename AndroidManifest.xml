@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="androidstudio.yudi.supertrunfo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".Choose1Activity" />
+        <activity android:name=".Speedy1Activity" />
+        <activity android:name=".Choose2Activity" />
+        <activity android:name=".Choose3Activity" />
+        <activity android:name=".Speedy2Activity" />
+        <activity android:name=".Speedy3Activity" />
+        <activity android:name=".Power1Activity" />
+        <activity android:name=".Power2Activity" />
+        <activity android:name=".Power3Activity" />
+        <activity android:name=".Weight1Activity" />
+        <activity android:name=".Weight2Activity" />
+        <activity android:name=".Weight3Activity" />
+        <activity android:name=".PlaySpeedyActivity" />
+        <activity android:name=".PlayPowerActivity" />
+        <activity android:name=".PlayWeightActivity" />
+        <activity android:name=".PlayPower2Activity" />
+        <activity android:name=".PlayPower3Activity" />
+        <activity android:name=".PlaySpeedy2Activity" />
+        <activity android:name=".PlaySpeedy3Activity" />
+        <activity android:name=".PlayWeight2Activity" />
+        <activity android:name=".PlayWeight3Activity"></activity>
+    </application>
+
+</manifest>
