@@ -6,7 +6,8 @@
     android:gravity="center"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:weightSum="1">
+    android:weightSum="1"
+    android:background="@drawable/bg4_v2">
     <ImageView
         android:src="@drawable/wheel_icon"
         android:layout_width="194dp"

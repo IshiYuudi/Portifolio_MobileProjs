@@ -5,7 +5,8 @@
     android:padding="10dp"
     android:gravity="center"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/bg5">
     <ImageView
         android:src="@drawable/sportcar_big"
         android:layout_width="wrap_content"
