@@ -19,7 +19,7 @@ public class PlayWeightActivity extends AppCompatActivity {
         setContentView(R.layout.playweight_screen);
         tv_valor = (TextView) findViewById(R.id.tv_valor);
         iv_computer = (ImageView) findViewById(R.id.iv_computer);
-        tv_weight_computer = (TextView) findViewById(R.id.tv_speedy_computer);
+        tv_weight_computer = (TextView) findViewById(R.id.tv_weight_computer);
         //
         Intent i = getIntent();
         Bundle valor = i.getExtras();
